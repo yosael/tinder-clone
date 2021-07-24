@@ -1,7 +1,8 @@
 import React from 'react';
 import './Header.css';
 import PersonIcon from '@material-ui/icons/Person';
-import { IconButton } from '@material-ui/core';
+import IconButton from '@material-ui/core/IconButton';
+import ForumIcon from '@material-ui/icons/Forum';
 
 const Header = () => {
     return (
@@ -14,6 +15,9 @@ const Header = () => {
                 src="https://1000marcas.net/wp-content/uploads/2019/12/Tinder-simbolo.jpg"
                 alt=""
             />
+            <IconButton>
+                <ForumIcon fontSize="large" className="header__icon" />            
+            </IconButton>
         </div>
     )
 }
